@@ -1,0 +1,46 @@
+{
+  "name": "vue-editorconfig-prettier-eslint-stylelint",
+  "version": "1.0.0",
+  "description": "Test Vue.js project for integration of eslint and stylelint with prettier and editorconfig",
+  "author": {
+    "name": "absolutholz"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "vue-editorconfig-prettier-eslint-stylelint@1.0.0",
+  "bugs": {
+    "url": "https://github.com/absolutholz/vue-editorconfig-prettier-eslint-stylelint/issues"
+  },
+  "homepage": "https://github.com/absolutholz/vue-editorconfig-prettier-eslint-stylelint#readme",
+  "keywords": [
+    "vue.js",
+    "editorconfig",
+    "prettier",
+    "eslint",
+    "stylelint"
+  ],
+  "license": "GPL-3.0-or-later",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absolutholz/vue-editorconfig-prettier-eslint-stylelint.git"
+  }
+}
