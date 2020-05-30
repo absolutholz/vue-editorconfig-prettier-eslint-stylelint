@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  front-end:
+    container_name: vue_test-config
+    build:
+      context: .
+      dockerfile: ./docker-config/front-end/Dockerfile
+    working_dir: /var/www/front-end
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8000:8000 # vue ui
+      - 8080:8080 # vue dev
+    volumes:
+      - ./:/var/www/front-end
+      - "npm_cache:/var/www/front-end/node_modules"
+    command: bash -c "vue ui -H 0.0.0.0"
+
+volumes:
+  npm_cache:
